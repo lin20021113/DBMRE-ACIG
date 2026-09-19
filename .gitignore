@@ -1,2 +1,28 @@
+# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Dataset
+*.pkl
+*.pickle
+MOSI/
+MOSEI/
+data/
+dataset/
+datasets/
+
+# Logs and results
+logs/
+results/
+runs/
+saved_models/
