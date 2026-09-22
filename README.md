@@ -40,7 +40,6 @@ The overall framework consists of the following stages:
 6. Multimodal fusion and sentiment prediction
 
 ## Repository Structure
-
 ```text
 DHMD-DBMRE-ACIG/
 ├── config/
@@ -57,3 +56,35 @@ DHMD-DBMRE-ACIG/
 ├── test.py
 ├── .gitignore
 └── README.md
+```
+## Datasets
+
+The experiments are conducted on the following public multimodal
+sentiment analysis datasets:
+
+- CMU-MOSI
+- CMU-MOSEI
+
+The datasets are not included in this repository.
+Please obtain the datasets from their official sources and place the
+processed data according to the paths specified in `config/config.json`.
+
+## Requirements
+
+The implementation is based on Python and PyTorch.
+
+Main dependencies include:
+
+- Python
+- PyTorch
+- NumPy
+- SciPy
+- Transformers
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/lin20021113/DBMRE-ACIG.git
+cd DBMRE-ACIG
+
